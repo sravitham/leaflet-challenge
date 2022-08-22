@@ -31,17 +31,17 @@ function createFeatures(earthquakeData) {
       function getColor(depth) {
         switch (true) {
           case depth > 90:
-            return "#800080";
+            return "#000033";
           case depth > 70:
-            return "#008080";
+            return "#000099";
           case depth > 50:
-            return "#dc143c";
+            return "#0000ff";
           case depth > 30:
-            return "#1e90ff";
+            return "#4d4dff";
           case depth > 10:
-            return "#ffd700";
+            return "#8080ff";
           default:
-            return "#DAF7A6";
+            return "#ccccff";
         }
       }
         // Add Legend
